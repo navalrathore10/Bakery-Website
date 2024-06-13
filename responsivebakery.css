@@ -212,6 +212,24 @@
         width: 75%;
     }
 
+/* Menu Item Responsive Starts Here  */
+
+    .menu_cnt{
+        height: max-content;
+    }
+    .menu_item{
+        width: 70%;
+        height: max-content;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .mi_lft{
+        width: 90%;
+    }
+    .mi_rgt{
+        width: 70%;
+    }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:1000px) {
